@@ -1,3 +1,12 @@
 .venv
 .env
 .hintrc
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de editores/IDE
+.vscode/
+.idea/
