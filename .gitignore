@@ -10,3 +10,6 @@ desktop.ini
 # Configuración de editores/IDE
 .vscode/
 .idea/
+
+# Personal
+CLAUDE.md
