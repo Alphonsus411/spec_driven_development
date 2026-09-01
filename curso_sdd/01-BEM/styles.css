@@ -1,0 +1,43 @@
+/*
+BEM = Bloque Elemento Modificador
+
+Se usa siempre CLASS en lugar de ID para poder reutilizar los estilos y no tener conflictos con otros estilos.
+
+Class = aplicar estilos a un elemento HTML
+Id = aplicar funcionalidad de JavaScript a un elemento HTML
+
+.bloque
+.bloque__elemento
+.bloque__elemento--modificador
+
+*/
+
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+}
+
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+} 
+
+.cards .card a{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+} 
