@@ -1,0 +1,51 @@
+/*
+BEM = Bloque Elemento Modificador
+
+Se usa siempre CLASS en lugar de ID para poder reutilizar los estilos y no tener conflictos con otros estilos.
+
+Class = aplicar estilos a un elemento HTML
+Id = aplicar funcionalidad de JavaScript a un elemento HTML
+
+.bloque
+.bloque__elemento
+.bloque__elemento--modificador
+
+1. No se puede usar ID para aplicar estilos a un elemento HTML, ya que no se puede reutilizar y puede generar conflictos con otros estilos.
+2. No usar etiquetas HTML para aplicar estilos, ya que no se puede reutilizar y puede generar conflictos con otros estilos.
+3. Que todo sea un Key selector, es decir, que todo sea una clase, para poder reutilizar los estilos y no tener conflictos con otros estilos.
+
+*/
+
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+}
+
+.cards__card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+} 
+
+.card__link{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.card__link--rojo {
+    background-color: red;
+}
