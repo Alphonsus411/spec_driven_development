@@ -1,0 +1,26 @@
+:root{
+    --color-principal: green;
+    --color-secundario: red;
+    --fuente-principal: 'Verdana', sans-serif;
+    --fuente-size: 35px;
+}
+
+h1{
+    color: var(--color-secundario);
+    font-family: var(--fuente-principal);
+    font-size: var(--fuente-size);
+}
+
+p{
+    font-family: var(--fuente-principal);
+}
+
+a{
+    color: var(--color-principal);
+}
+
+h3{
+    color: var(--color-principal);
+    font-family: var(--fuente-principal);
+    font-size: var(--fuente-size);
+}
